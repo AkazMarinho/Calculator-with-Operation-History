@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="./JS/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="display"> 
+            <span class="firstValue"> </span>
+            
+            <span class="displayOperation" ></span> 
+
+            <span class="zero">0</span> 
+            <span class="numbers"></span> 
+            <i class="uil uil-cancel"></i>
+
+        </div>
+
+        <div class="calculator-keys">
+
+            <button class="cursor operations" id="division"><span>/</span></button>
+            <button class="cursor operations" id="multiplication"><span>*</span></button>
+            <button class="cursor operations" id="subtraction"><span>-</span></button>
+            <button class="cursor operations" id="sum"><span>+</span></button>
+            <button class="cursor inputNumber">9</button>
+            <button class="cursor inputNumber">8</button>
+            <button class="cursor inputNumber">7</button>
+            <button class="cursor inputNumber">4</button>
+            <button class="cursor inputNumber">5</button>
+            <button class="cursor inputNumber">6</button>
+            <button class="cursor inputNumber">1</button>
+            <button class="cursor inputNumber">2</button>
+            <button class="cursor inputNumber">3</button>
+            <button class="inputNumber">0</button>
+            <button class="cursor decimal">.</button>
+            <button class="cursor clear">AC</button>
+            <button class="cursor result">=</button>
+
+        </div>
+
+        <i class="cursor uil uil-times-square close hide"></i>
+        <div class="cursor historic">
+            <h3>Historic</h3>
+            
+            <div class="dataHis hide">
+                <!-- <div class="contentResult">
+                    <span>5 + 4 = 5</span>
+                </div> -->
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
