@@ -1,7 +1,7 @@
-# Calculator-with-Operation-History
-Uma calculadora feita em JS, CSS e HTML que conta com Historico de operações realizadas.
+# Calculator with operation history
 
 <span>
+  <p>A calculator made in JS, CSS and HTML that has a history of operations performed.</p>
   <p>Built in JavaScript, HTML and CSS, it is a simple calculator with 4 basic operations, with support for decimal numbers.</p>
   <p>Its differential is in its operations history, which will be visible while the page is not reloaded.</p>
 
